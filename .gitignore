@@ -1,0 +1,4 @@
+#excluimos una carpeta
+node_modules/
+#excluimos los fichero .log (* es un todo lo que lleve algo (en este caso .log))
+*.log
