@@ -15,9 +15,21 @@ http-server (desde terminal)
 npm install -g http-server
 ```
 
-##configurar git
+## configurar git
 ```shell
 git config --global user.name
 git config --global user.email
 git config --global -l
+```
+
+## crear repositorio /clonar repositorio
+
+crear repositorio nuevo
+```shell
+git init <nombre de nueva carpeta>
+```
+
+clonar un repositorio existente 
+```shell
+git clone <enlace de creacion de github>
 ```
