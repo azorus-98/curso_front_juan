@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box/* nos deja a nuestra responsabilidad el margin el padding y el with */
+}
+body{
+    margin: 0;
+    padding:0;
+}
+.cuadrados p {
+    margin: calc( calc(100%-calc(15%*5))/10);
+    /* margin: 1rem; */
+    padding: 1rem;
+    background-color: cadetblue;
+    border: 1px solid;
+    /* display: inline-block */
+    width: 10%;
+    float: left;
+    }
+    .clearfix{
+        clear: both;
+    }
+    .real p{
+        float: left;
+        width: 33.33%;
+    }
+    .real p:not(:first-child) {
+        padding-left: 1.5rem;
+    }

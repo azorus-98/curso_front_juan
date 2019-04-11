@@ -1,0 +1,14 @@
+div{
+    font-size: 0.8em;
+}
+
+section{
+font-size: 0.8em;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em
+}
+/* em son proporcionados a la letra del padre
+(mejor usar rems) */
