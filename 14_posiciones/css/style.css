@@ -1,0 +1,19 @@
+section{
+    position: relative;
+}
+section p {
+    padding: 1rem;
+    background-color: coral;
+}
+
+.relativo {/* desplazamiento de un parrafo */
+    position: relative;
+    top: 3rem;/* de arriva a abajo (si es positivo) */
+    left: 3rem;
+}
+
+.absoluto {
+    position: absolute
+    top: 3rem;/* desde el origenes (arriva) para abajo */
+    left: 3rem;
+}
