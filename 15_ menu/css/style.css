@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Cute Font', cursive;
 }
 
 .main-header {
@@ -33,27 +34,45 @@ body {
     text-align: center;
 }
 
-.menu-principal{
+.menu ol,menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .menu a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+.main-menu{
 border: 1px solid;
 border-radius: 5px;
-width: auto;
-right: 0;
+position: absolute
+top: 2px;
+right: 1px;
 
 }
 
-.menu-principal ol {
-list-style: none;
-margin: 0;
-padding: 0;
-}
-
-.menu-principal li {
+.main-menu li {
 display: inline-block;
 }
 
-.menu-principal a {
-color: inherit;
-text-decoration: none;
+.main-menu a {
 display: block;
 padding: 1rem;
+}
+
+.main-footer {
+    background-color: brown;
+    color: bisque;
+    padding-top: 1.2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.social-menu {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
