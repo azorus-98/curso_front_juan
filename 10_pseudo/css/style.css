@@ -1,0 +1,42 @@
+section p::first-letter {
+    font-size: 4rem
+}
+aside p::first-line{
+    font-size: 1.3rem;
+    font-weight: bold
+}
+section div p::before{
+    content: "🐲"
+}
+p:hover{
+    color: brown
+}
+a:visited {
+color: rgb(0, 211, 200);
+}
+/* section p:nth-child(1) {
+    color: deeppink
+} */
+section p:nth-of-type(even/* odd */) {
+    color: deeppink
+}
+/* * {
+    display: inline;
+} */
+body {
+    font-family: 'East Sea Dokdo', cursive;
+    border: 1px solid
+}
+header {
+    font-family: 'Inconsolata', monospace;
+}
+/* * {
+    font-family: 'East Sea Dokdo', cursive;
+    border: 1px solid
+} */
+/* *:not(p) {
+    color: darkgoldenrod
+} *//* not() significa que todo excepto lo que esta en el parentesis(es un eccopto)ej: */
+/*  #cualquier cosa es in id */
+/* especificidadtiene 4 balores /id/clases y seudo clases/elementos y seudo elementos
+esto sirve  */
