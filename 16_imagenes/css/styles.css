@@ -1,0 +1,57 @@
+img {
+    width: fit-content;
+    max-width: 100%;
+}
+
+.image-wrapper-25{
+    width: 25%;
+    
+    float: left;
+    margin-right: 1rem;
+
+    /* float: right;
+    margin-left: 1rem; */
+}
+
+.image-wrapper-50{
+    width: 50%;
+
+    float: left;
+    margin-right: 1rem
+
+    /* float: right;
+    margin-left: 1rem; */
+}
+
+.image-wrapper-75{
+    width: 75%;
+
+    float: left;
+    margin-right: 1rem;
+
+    /* float: right;
+    margin-left: 1rem; */
+}
+
+.clearfix{
+    border-top: 1px solid gainsboro;
+    clear: both;
+}
+
+.fondos{
+    color: #4F9BE4;
+    height: 100vh;/* te da la altura */
+    background-image: url(../assets/3boats.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    /* background-size: containt; */
+    background-size: cover; /* la mas usada es estapero tb se pueden usar las 2 d arriva */
+    background-blend-mode: lighten /* esto es un filtro */
+}
+
+.fondos h2{
+    text-align: center;
+    line-height: 100vh;
+    padding-top: 25vh;
+    color: #F22424
+}
