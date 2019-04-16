@@ -67,9 +67,11 @@ body {
 /* layaut con display table */
 .content-wrapper {
     margin: 2rem;
+    display: table;
 }
 
 .main-content {
+    display: table-cell
     width: 70%;
     background-color: bisque;
     padding-left: 1rem;
@@ -77,12 +79,25 @@ body {
 }
 
 .main-aside {
+    display: table-cell
     width: 30%;
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: gainsboro;
     border: 1px solid
 }
+/* tabla en css */
+.tabla-navegadores{
+    widows: 100%;
+    empty-cells: hide;
+}
+.tabla-navegadores:hover{
+    border-collapse: collapse
+}
+.tabla-navegadores td, th {
+    border: 1px solid
+}
+
 /* css del footer */
 .main-footer {
     background-color: brown;
