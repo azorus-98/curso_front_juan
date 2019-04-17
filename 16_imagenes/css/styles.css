@@ -38,7 +38,7 @@ img {
     clear: both;
 }
 
-.fondos{
+/* .fondos{
     color: #4F9BE4;
     height: 100vh;/* te da la altura */
     background-image: url(../assets/3boats.jpg);
@@ -47,11 +47,31 @@ img {
     /* background-size: containt; */
     background-size: cover; /* la mas usada es estapero tb se pueden usar las 2 d arriva */
     background-blend-mode: lighten /* esto es un filtro */
+} */
+
+.fondos{
+    height: 100vh;
+    position: relative;
+    z-index: 20;
+}
+
+.fondos::before/* ::after */ /* en este caso se puede usar ambos tanto before como after */{
+content: "";
+display: block;
+height:100%;
+width: 100%;
+position: absolute;
+top: 0;
+background-color: #468CE1;
+background-image: url(../assets/3boats.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.8;
+z-index: 10;
 }
 
 .fondos h2{
     text-align: center;
-    line-height: 100vh;
     padding-top: 25vh;
     color: #F22424
 }
