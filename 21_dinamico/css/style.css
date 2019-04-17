@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    padding: 4rem;
+}
+
+a {
+    display: block;
+    padding: 1rem;
+    border: 1px solid gainsboro;
+    color: gainsboro;
+    background-color: azure;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    /* transition-timing-function:ease-in; */
+}
+
+a:hover{
+    color: aqua;
+    background-color: blueviolet;
+    /* font-size: 2rem;
+    padding: 2rem; */
+    transform: matrix(2);
+}
