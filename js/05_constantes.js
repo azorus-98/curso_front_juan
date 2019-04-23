@@ -7,6 +7,7 @@ const DATA =25
 const user = (
     name: 'pepe'
     edad: 22
+
 )
 
 //Java / c#

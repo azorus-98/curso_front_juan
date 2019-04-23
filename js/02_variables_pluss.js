@@ -1,3 +1,10 @@
+/* +En otros lenguajes hay declaracion EXPLICITA y OBLIGATORIA de tipos int x --> variable x de tipo entero sin valor 
+
+En JS los tipos son
+-debiles: nose declaran explicitamente: son IMPLICITOS al valor
+-dinamicos: pueden cambiar
+
+*/
 //+em ES6 se utilizan let y const para declarar variables
 
 let nombre //+Declarar

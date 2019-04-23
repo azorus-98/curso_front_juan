@@ -46,3 +46,5 @@ condicional()
 x = 33
  otraprueba()
  console.log('fuera de la funcion vale ',x)
+
+ 
