@@ -1,12 +1,12 @@
 //asignacion
 
-let x =2 3
+let x =23
 x++//x=x+1
 +--//x=x-1
 
 //arigmetricos
 let y = 2
-let r
+let r = 0
 r=x+y//25
 r=x-y//21
 r=x*y//46
@@ -36,7 +36,19 @@ user = {
 console.log(user.nombre)
 
 //arrays
-let numeros = [12, 45,67]
-let usuariuo = ['pepe','Juan',Rosa,mari]
-console.log(usuariuo [0])
-usuariuo
+let numeros = [12, 45, 67]
+let usuarios = ['pepe','Juan',Rosa,mari]
+console.log usuarios [0]) 
+usuarios[usuarios.length] = 'Ramon'
+usuarios[usuarios.length] = 'carolina'
+usuarios[100] = 'Ernesto'
+console.log(usuarios.length)
+
+//mensajes de usuario
+
+let mensajes = [
+    'Bienvenido al casino',
+    'No se admiten menores de edad'
+]
+
+console.log(mensajes[i])
