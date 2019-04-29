@@ -33,7 +33,8 @@ function fibonacci(limite) {
  * 
  */
 function fibonachifor(limite) {
-/*     let x=0
+/* //manera fea (asi no se hace) 
+   let x=0
     let y=1
     let serie=[0]
 
