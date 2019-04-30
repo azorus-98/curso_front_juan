@@ -1,0 +1,18 @@
+img {width: 50%}
+.main-header {
+    background-color: rgb(35, 75, 161);
+    color:  mediumturquoise;
+    padding: 2rem;
+    position: relative;
+}
+
+.main-header-h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-p {
+    margin-bottom: 0;
+    margin-top: 0.2rem;
+    
+}
