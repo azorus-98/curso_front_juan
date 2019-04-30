@@ -1,8 +1,23 @@
+*, *::after, *::before, *:after, *:before {
+    box-sizing: border-box
+}
 img {width: 50%}
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Work Sans', sans-serif;
+    }
+
 .main-header {
     background-color: rgb(35, 75, 161);
     color:  mediumturquoise;
     padding: 2rem;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.main-header div {
+    margin: 1rem;
     position: relative;
 }
 
@@ -11,8 +26,23 @@ img {width: 50%}
     padding: 0;
 }
 
-.main-header-p {
+.main-header p {
     margin-bottom: 0;
     margin-top: 0.2rem;
-    
+    visibility: hidden;
 }
+
+.main-header:hover p {
+    visibility: initial;
+}
+
+.content-wrapper-p{
+
+}
+
+.content-wrapper-h3{
+    background-color: rgb(128, 128, 184);
+    font-family: 'Diplomata', cursive;
+}
+
+
