@@ -6,7 +6,7 @@ img {width: 50%}
 body {
         margin: 0;
         padding: 0;
-        font-family: 'Work Sans', sans-serif;
+    background-color:  rgb(139, 139, 192)
     }
 
 .main-header {
@@ -16,6 +16,10 @@ body {
     font-family: 'Fredericka the Great', cursive;
 }
 
+.main-header a {
+    color:  mediumturquoise;
+    
+}
 .main-header div {
     margin: 1rem;
     position: relative;
@@ -29,19 +33,19 @@ body {
 .main-header p {
     margin-bottom: 0;
     margin-top: 0.2rem;
-    visibility: hidden;
+    display: none;
 }
 
 .main-header:hover p {
-    visibility: initial;
+    display: initial;
 }
 
-.content-wrapper-p{
+/* .content-wrapper-p{
 
 }
-
+ */
 .content-wrapper-h3{
-    background-color: rgb(128, 128, 184);
+    background-color: rgb(102, 102, 204);
     font-family: 'Diplomata', cursive;
 }
 
