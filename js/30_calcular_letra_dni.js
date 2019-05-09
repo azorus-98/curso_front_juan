@@ -9,6 +9,8 @@ function daLetraDni1(dni) {
 }
 
 function letraCorrecta1(dni,letra='0') {
+    this.dni=dni
+    this.letra=letra
     let r=false
 
     if (letra=daLetraDni1(dni)) {
@@ -35,6 +37,8 @@ function daLetraDni2(dni) {
 }
 
 function letraCorrecta2(dni,letra='0') {
+    this.dni=dni
+    this.letra=letra
     let r=false
     if (letra=daLetraDni2(dni)) {
         r=true
