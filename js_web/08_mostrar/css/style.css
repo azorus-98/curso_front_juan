@@ -1,0 +1,19 @@
+section{
+    min-height: 80vh;
+    display: flex;
+
+    /* alineacion en el eje principal : por defecto flex-start */
+    justify-content: center;
+    /* alineacion en el eje secundario : por defecto tretch */
+    align-items: center;
+}
+
+.item-flex{
+    background-color: burlywood;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hide{
+    display: none
+}
