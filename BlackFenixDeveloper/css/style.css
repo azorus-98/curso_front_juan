@@ -1,0 +1,29 @@
+*, *::after, *::before, *:after, *:before {  /* border-box el ancho es todo lo que está dentro */
+    box-sizing: border-box;
+}
+
+header { background-image: url("../imagenes/blue.jpg");}
+/* General */
+.clearfix { clear: both; }
+body {font-family: 'Open Sans', sans-serif; font-weight: 300;}
+h1, h2, h3 {font-family: 'Economica', sans-serif; text-align: center;}
+h1 {font-weight: 700; text-transform: uppercase; font-size: 4em;}
+h2 {font-weight: 700; text-transform: uppercase; font-size: 2em; border-bottom: solid 1px;}
+
+/* Ramas */
+.ramas_lab {width: 100%;}
+.ramas {width: 28%; margin: 1em; float: left; }
+.ramas img {width: 100%}
+.ramas h2 {text-align: center;}
+
+/* Experiencia y Estudios */
+.contenido-exp-est {width: 80%; margin-left: auto; margin-right: auto;}
+.estudios {width: 45%; margin: 1em; float: left;}
+.experiencia {width: 45%; margin: 1em; float: left;} 
+
+.fecha {font-size: 0.75em; font-style:italic; }
+.titulos {font-weight: 700;}
+
+
+/* footer */
+.footer {background-color: darkolivegreen}
