@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 
-header { background-image: url("../imagenes/blue.jpg");}
+header { background-image: url("../assets/blue.jpg");}
 /* General */
 .clearfix { clear: both; }
 body {font-family: 'Open Sans', sans-serif; font-weight: 300;}
-h1, h2, h3 {font-family: 'Economica', sans-serif; text-align: center;}
-h1 {font-weight: 700; text-transform: uppercase; font-size: 4em;}
+h2, h3 {font-family: 'Economica', sans-serif; text-align: center;}
+h1 {font-family: 'Rye', cursive;font-weight: 700; text-transform: uppercase; font-size: 4em;text-align: center;}
 h2 {font-weight: 700; text-transform: uppercase; font-size: 2em; border-bottom: solid 1px;}
 
 /* Ramas */
@@ -27,3 +27,9 @@ h2 {font-weight: 700; text-transform: uppercase; font-size: 2em; border-bottom: 
 
 /* footer */
 .footer {background-color: darkolivegreen}
+
+/*  */
+img{
+    width: 300px;
+    height: 300px;
+}
